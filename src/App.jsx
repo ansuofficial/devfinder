@@ -67,7 +67,7 @@ function App() {
               name=""
               id=""
               className="bg-transparent border-none outline-none focus:outline-none"
-              onClick={handleTheme}
+              onChange={handleTheme}
             >
               <option value="dark">Dark</option>
               <option value="light">Light</option>
