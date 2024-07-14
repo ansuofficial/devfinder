@@ -67,13 +67,10 @@ function App() {
               name=""
               id=""
               className="bg-transparent border-none outline-none focus:outline-none"
+              onClick={handleTheme}
             >
-              <option onClick={handleTheme} value="dark">
-                Dark
-              </option>
-              <option onClick={handleTheme} value="light">
-                Light
-              </option>
+              <option value="dark">Dark</option>
+              <option value="light">Light</option>
             </select>
 
             {/* <IconSun /> */}
